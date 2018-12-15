@@ -25,6 +25,7 @@ set linespace=15
 "-------------Plugins--------------"
 set nocompatible
 filetype plugin on
+runtime macros/matchit.vim
 
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
