@@ -13,6 +13,9 @@ set wildmenu
 set wildmode=full
 
 set history=200
+
+set visualbell
+set noerrorbells
 "-------------General Settings--------------"
 set backspace=indent,eol,start                                          "Make backspace behave like every other editor.
 let mapleader = ',' 						    	"The default leader is \, but a comma is much better.

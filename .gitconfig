@@ -1,5 +1,4 @@
 [core]
-	editor = subl -w
 	excludesfile = /Users/coons/.gitignore_global
 [user]
 	name = Dallin
