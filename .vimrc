@@ -30,6 +30,8 @@ set nocompatible
 filetype plugin on
 runtime macros/matchit.vim
 
+set incsearch
+
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
