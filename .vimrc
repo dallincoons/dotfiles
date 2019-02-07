@@ -23,15 +23,6 @@ set number								"Let's activate line numbers.
 set linespace=15  
 
 "-------------Mappings--------------"
-
-
-"-------------Plugins--------------"
-set nocompatible
-filetype plugin on
-runtime macros/matchit.vim
-
-set incsearch
-
 "Make it easy to edit the Vimrc file.
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
@@ -39,6 +30,16 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :nohlsearch<cr>
 
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+"-------------Plugins--------------"
+set nocompatible
+filetype plugin on
+runtime macros/matchit.vim
+
+"-------------Search--------------"
+set hlsearch
+set incsearch
+
 
 "-------------Auto-Commands--------------"
 
