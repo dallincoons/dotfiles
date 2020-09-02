@@ -1,0 +1,8 @@
+alias phpunit="vendor/bin/phpunit"
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias f="vendor/bin/phpunit --filter="
+alias git-clean="git branch | grep -v "master" | xargs git branch -D"
+alias nah="git reset --hard && git clean -df"
+alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+alias rm="trash"
+alias phpconfig="vim /usr/local/etc/php/7.2/php.ini"
